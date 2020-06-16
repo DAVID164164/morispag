@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.conta{
+    overflow: hidden;
+    max-width: 100%;
+}
+body{
+   background-size: cover; 
+}
+.row{    display: inline-block;}
+nav{
+    width: 100%;
+    background-color: lightsteelblue;
+    height: 100px;
+}
+.title{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: monospace;
+}
+.subt{
+    display: flex;
+    font-family: initial;
+    font-size: 50px;
+}
+.col-l{
+    display: inline-block;
+    line-height: 47px;
+    padding: 80px 0px 0px 170px;
+    width: 510px;
+    margin-block-end: 200px;
+    text-decoration: inherit;
+    column-count: 1;
+}
+.col-l h3{
+    font-family: fantasy;
+    padding: 30px 0px 0px 0px;
+}
+.col-l img{
+    height: 350px;
+    width: 510px;
+}
+.col-r{
+    display: inline-block;
+    margin: 218px 0 0 100px;
+    width: 400px;
+    text-align: justify;
+}
+.col-r h2{
+    line-height: 20px;
+}
+.col-r p{
+    display: flex;
+}
+table, th, td {
+    height: 35px;
+    width: 200px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.tab{
+    float: left;
+    margin-right: 50px;
+}
+.list{
+    float: left;
+}
+.var{
+    margin-top: 23px;
+    margin-bottom: 97px;
+}
+.footer-bottom{
+     background-color: silver;
+     color: black;
+     height: 50px;
+     width: 100%;
+     text-align: center;
+     position: fixed;
+     bottom: 0px;
+     left: 0px;
+}
+
+@media screen and (min-width:480px){}
+@media screen and (min-width:767px){}
+@media screen and (min-width:950px){}
+
+
+
